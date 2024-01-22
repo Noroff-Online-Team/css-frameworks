@@ -1,0 +1,15 @@
+.navbar-category {
+  padding-bottom:0;
+
+  .nav-link {
+    @extend .border-end;
+    @extend .border-accent;
+    border-bottom: 0.25rem solid transparent !important;
+    @extend .text-white;
+    font-size: 85%;
+
+    &:hover, &.active {
+      border-bottom: 0.25rem solid $white !important;
+    }
+  }
+}
